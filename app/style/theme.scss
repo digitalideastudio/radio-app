@@ -1,0 +1,57 @@
+$black:       hsl(0, 0%, 4%);     //#0a0a0a
+$black-bis:   hsl(196, 15%, 7%);  //#0f1315
+$black-ter:   hsl(196, 15%, 14%); //#1e2629
+
+$grey-darker: hsl(196, 15%, 20%); //#2b373b
+$grey-dark:   hsl(196, 15%, 29%); //#3f4f55
+$grey-bis:    hsl(196, 15%, 38%); //#52686f
+$grey:        hsl(196, 15%, 48%); //#68838d
+$grey-middle: hsl(196, 15%, 60%); //#8aa0a8
+$grey-light:  hsl(196, 15%, 71%); //#aabac0
+$grey-lighter:hsl(196, 15%, 86%); //#d6dee1
+
+$white-shadow:hsl(196, 15%, 90%); //#e2e7e9
+$white-ter:   hsl(196, 15%, 94%); //#edf1f2
+$white-bis:   hsl(196, 15%, 98%); //#f9fafb
+$white:       hsl(196, 15%, 100%); //#fff
+
+$orange:    hsl(23, 83%, 68%);  //#f19e6a
+$yellow:    hsl(48, 83%, 68%);  //#f1d66a
+$green:     hsl(125, 83%, 68%); //#6af175
+$blue:      hsl(198, 40%, 40%); //#3d768f
+$purple:    hsl(260, 63%, 64%); //#9069dd
+$red:       hsl(10, 54%, 45%);  //#b14935
+
+$rr-red:    hsl(4, 41%, 34%);   //#7a3833
+$wh-blue:   hsl(212, 54%, 49%); //#3978c0
+
+// brands colors
+$twitter:   hsl(192, 87%, 58%); //#37ccf1
+$facebook:  hsl(216, 53%, 40%); //#305b9c
+$dribbble:  hsl(340, 91%, 62%); //#f64681
+$paypal:    hsl(210.9, 52.8%, 49%); // #3b7bbf;
+$paypal-invert: hsl(30.9, 52.8%, 51%); // #c48440;
+$rss:       $yellow; //rgb(250,184,19);
+
+$background: $grey-darker;
+$background-light: $grey-light;
+$border: 1px solid $grey-light;
+
+$text: $grey-dark;
+$text-invert: $white;
+$text-light: $grey;
+$text-lighter: $grey-light;
+$text-strong: $grey-darker;
+
+$weight-light: 300;
+$weight-normal: 400;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+@mixin fnt($color, $size, $weight, $align) {
+  color: $color;
+  font-family: 'OpenSans', arial, sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  text-align: $align;
+}
